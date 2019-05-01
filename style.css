@@ -1,0 +1,125 @@
+.application{
+    background-position-x: -7px;
+    background-position-y: -5px ;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border : 1px solid #666666;
+    border-radius: 7px;
+    background-color: #f2f2f2;
+    height: 150px;
+    width: 350px;
+    font-family: Arial;
+    font-size: small;
+
+}
+.header{
+    background-color: #4a4949;
+    color:white;
+    height: 20%;
+    border-radius: 4px 4px 0px 0px;
+}
+.header span {
+    position: absolute;
+    margin: 8px 12px;
+    font-weight: 600;
+    /*font-size: ;*/
+}
+.box{
+    background-color: #ffffff;
+    border : 1px solid #d5d3d3;
+    border-radius: 5px;
+    margin: 12px;
+    height: 64%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.box1{
+    padding: 0% 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box2{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.progressbarLabel{
+    width: 35%;
+    text-align: center;
+    font-weight: 600;
+    color: #4a4949;
+}
+.progressbar{
+    background-color: #cecece  ;
+    position: relative;
+    height: 8px;
+    width: 70%;
+    padding: 3px;
+}
+.progressbar__strip_blue{
+    height: 100%;
+    background-color: #0489d1;
+    width: 1%;
+}
+.moneyLabelContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    //margin-left: 3px;
+    width: 100%;
+    top: 0%;
+    height: 20px;
+}
+.progressbar__moneyLabel{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*font-size: small;*/
+    font-weight: bold;
+    color: #4a4949;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 5px 5px 5px;
+    border-color: transparent transparent  #807e81;
+}
+.indicator{
+    width: 30%;
+    height: 42px;
+    background: linear-gradient(  #a49e9f,#706f73 );
+    color :white;
+    border: 1px solid #cecece ;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row1{
+    flex:1;
+    border-bottom: 1px solid #807e81;
+}
+.row2{
+    text-align: center;
+    flex:2;
+    font-size: large;
+    font-weight: bolder;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    color: #454346;
+    font-size: small;
+    font-weight: 300;
+}
+.info__text{
+    width : 28px;
+}
