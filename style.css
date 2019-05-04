@@ -10,7 +10,7 @@
     background-color: #f2f2f2;
     height: 150px;
     width: 350px;
-    font-family: Arial;
+    font-family: "PT Sans",  sans-serif;
     font-size: small;
 
 }
@@ -18,11 +18,11 @@
     background-color: #4a4949;
     color:white;
     height: 20%;
-    border-radius: 4px 4px 0px 0px;
+    border-radius: 4px 4px 0 0;
 }
 .header span {
     position: absolute;
-    margin: 8px 12px;
+    margin: 6px 12px;
     font-weight: 600;
     /*font-size: ;*/
 }
@@ -37,7 +37,7 @@
     justify-content: space-evenly;
 }
 .box1{
-    padding: 0% 10%;
+    padding: 0 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,7 +53,7 @@
     width: 35%;
     text-align: center;
     font-weight: 600;
-    color: #4a4949;
+    color: #706f6f;
 }
 .progressbar{
     background-color: #cecece  ;
@@ -71,9 +71,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    //margin-left: 3px;
+    margin-left: 1px;
     width: 100%;
-    top: 0%;
+    top: 0;
     height: 20px;
 }
 .progressbar__moneyLabel{
@@ -83,7 +83,7 @@
     align-items: center;
     /*font-size: small;*/
     font-weight: bold;
-    color: #4a4949;
+    color: #6a686b;
 }
 .triangle{
     width: 0;
@@ -116,9 +116,14 @@
 .info{
     display: flex;
     justify-content: center;
-    color: #454346;
+    color: #7b797c;
     font-size: small;
     font-weight: 300;
+}
+.info img
+{
+    width: 18px;
+    height: 18px;
 }
 .info__text{
     width : 28px;

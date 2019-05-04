@@ -31,13 +31,13 @@ function move() {
             $(".moneyLabelContainer").css('width', width + '%');
             money_now = width * 0.15;
             var a= String(money_now.toFixed(1)).substr((String(money_now.toFixed(1 )).length -1));
-            if(a=='0'){
+            if(a==='0'){
                 $('.info__text').text( Math.trunc((15 - money_now.toFixed(1))) +" " );
             }
             else {
                 $('.info__text').text( (15 - money_now).toFixed(1) + " ");
             }
-            $('.money').html('$'+ money_now.toFixed(0));
+            $('.money').html('$'+ Math.floor(money_now));
 
         }
         if ((15-money_now)<10)
